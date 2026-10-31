@@ -109,7 +109,6 @@ const displayLesson = (lessons) => {
         levelContainer.append(btnDiv);
     }
 };
-
 loadLessons();
 document.getElementById("btn-seach").addEventListener("click",()=>{
     const input=document.getElementById("input-search");
